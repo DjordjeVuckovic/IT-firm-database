@@ -1,0 +1,1 @@
+insert into test (IDT, DATPT, DATKT)  values (1,DATE '2021-12-25',DATE '2021-12-25');
