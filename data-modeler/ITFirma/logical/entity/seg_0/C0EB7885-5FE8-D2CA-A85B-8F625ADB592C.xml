@@ -1,0 +1,34 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C0EB7885-5FE8-D2CA-A85B-8F625ADB592C" name="Klijentski_Projekat">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-22 17:25:43 UTC</createdTime>
+<ownerDesignName>ITFirma</ownerDesignName>
+<engineerTo>
+<item key="A9257CCD-2084-063C-8E52-5C6BE346A840" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>76C577C6-568B-1F9A-EEF5-F4281A10ED9E</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdK" id="97585F58-8F58-C9C2-D763-BE7C046B246E">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-22 17:50:57 UTC</createdTime>
+<generatorID>86A06BB2-27AE-2706-5649-FDAEAA778DF0</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<engineerTo>
+<item key="A9257CCD-2084-063C-8E52-5C6BE346A840" value="true"/>
+</engineerTo>
+<referedAttribute>D5DB6BF4-9CFC-B463-EDE2-F683D4D32CB9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

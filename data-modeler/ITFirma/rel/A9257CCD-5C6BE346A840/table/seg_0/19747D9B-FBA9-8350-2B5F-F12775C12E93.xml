@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="19747D9B-FBA9-8350-2B5F-F12775C12E93" name="Bodovna_Skala">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>9C0680C6-52BC-A4C3-8E63-8EE147B324FF</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdBs" id="D9B55B23-865C-CDC6-9434-D3C223213AD4">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>C375E1C7-67C3-96B6-D68A-CBCDA7552156</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IdR" id="EC8A4BF7-6A9E-A143-6ACD-C2125DEB5F62">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>DB31CC16-68C9-1E34-B2B6-9680F86B3BDC</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="202306F8-EBC5-33E4-8969-C3BC12966EBD" referredColumn="2E522192-2E61-08E6-33D0-E625A51250BA"/>
+</associations>
+</Column>
+<Column name="BrB" id="F82AA03D-FC0E-1D78-59C2-579E94281303">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 08:14:05 UTC</createdTime>
+<generatorID>408AE2AB-6B5A-DEB5-44CD-6E497169B32E</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IdR2" id="A4CBF91A-01E4-CBE2-59D7-94B33138E85F">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-24 20:47:04 UTC</createdTime>
+<generatorID>17955B0C-C27F-6D8A-2E16-B8B4F92BB023</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4AB2460D-CB93-EB96-31A1-265FE91ADE26" referredColumn="05E4ABB1-160D-606B-9129-0B1D76BD5FE1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2B7D5E46-554E-70E5-FD10-29333E0B04E9" name="BodovnaSkala_PK">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>41483AEA-6715-8D9B-B874-AC1DD6A8C8F8</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9B55B23-865C-CDC6-9434-D3C223213AD4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AF8A01C6-87B5-F666-E9CA-61104316D7BE" name="Hr_FK">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>5B37F24A-2DC6-17A2-193A-C9B92B37313D</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC8A4BF7-6A9E-A143-6ACD-C2125DEB5F62"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F7B85113-DCE9-620D-963D-505138C29482" name="Radnik_FK">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-24 20:47:04 UTC</createdTime>
+<generatorID>B9543C1E-4841-F972-6DE1-47E712E86152</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A4CBF91A-01E4-CBE2-59D7-94B33138E85F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

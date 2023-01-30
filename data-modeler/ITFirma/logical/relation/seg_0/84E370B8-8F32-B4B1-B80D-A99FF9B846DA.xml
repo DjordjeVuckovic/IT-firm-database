@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Angazovan" directorySegmentName="seg_0" id="84E370B8-8F32-B4B1-B80D-A99FF9B846DA">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-22 18:33:09 UTC</createdTime>
+<ownerDesignName>ITFirma</ownerDesignName>
+<engineerTo>
+<item key="A9257CCD-2084-063C-8E52-5C6BE346A840" value="true"/>
+</engineerTo>
+<sourcePk>4438D072-1E92-2B48-6630-C4B490878816</sourcePk>
+<targetPk>0B0DB012-9FA2-3074-01A3-E0AA6EBEF0C9</targetPk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>90F5807D-2F49-4F35-3E0D-DA646754212C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>052784A2-982A-2A6C-BBA8-CA092A8DF32F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

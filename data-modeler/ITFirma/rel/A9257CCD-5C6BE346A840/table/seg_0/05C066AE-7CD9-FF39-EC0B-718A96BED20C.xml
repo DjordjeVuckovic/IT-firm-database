@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="05C066AE-7CD9-FF39-EC0B-718A96BED20C" name="Test_Praksa">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<ownerDesignName>ITFirma</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Praksa_IdR" id="FC266A7B-4605-A815-1F23-8342A780C62D">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<ownerDesignName>ITFirma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BE0CE8EB-0A44-3F2D-7F99-AA3ECDF32904" referredColumn="ECABB928-179F-24A9-5025-637EC9AD9C65"/>
+</associations>
+</Column>
+<Column name="Praksa_IdPk" id="4EA1FD70-DD1D-DC77-6637-302FECE6A492">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<ownerDesignName>ITFirma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BE0CE8EB-0A44-3F2D-7F99-AA3ECDF32904" referredColumn="E1FA8D20-A459-8ADA-4964-C70ED9214F3A"/>
+</associations>
+</Column>
+<Column name="Test_IdT" id="B5852172-D52F-AA8C-DFE0-746E286D40DF">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<ownerDesignName>ITFirma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1E205522-3538-9DEF-2403-7ACDBCA641B4" referredColumn="BDE4B962-F00D-FA27-13C1-A4C48306145B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1306A370-8DD7-ADF3-01A3-73B4D52B34AE" name="TestPraksa_PK">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<ownerDesignName>ITFirma</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC266A7B-4605-A815-1F23-8342A780C62D"/>
+<colUsage columnID="4EA1FD70-DD1D-DC77-6637-302FECE6A492"/>
+<colUsage columnID="B5852172-D52F-AA8C-DFE0-746E286D40DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="756580D3-AA8C-C796-7EFC-346614B3D7CF" name="TestPraksa_Praksa_FK">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>C002851D-1A58-DB42-A59D-A714B1AEB7A9</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC266A7B-4605-A815-1F23-8342A780C62D"/>
+<colUsage columnID="4EA1FD70-DD1D-DC77-6637-302FECE6A492"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D663338F-B435-A4B1-37AA-00C325211995" name="TestPraksa_Test_FK">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>C002851D-1A58-DB42-A59D-A714B1AEB7A9</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5852172-D52F-AA8C-DFE0-746E286D40DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

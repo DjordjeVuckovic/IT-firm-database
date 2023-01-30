@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7150B4FE-9E5F-9235-ECAA-D3F9DCB91723" containerWithKeyObject="6E610485-8147-38F4-64E6-1F521A9F7249" localFKIndex="46495094-8569-83E1-C296-359EFEA1D062" name="Filijala_FK">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>92389FE8-AE46-6252-CF85-BADEC329043E</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<referredTableLongName>Filijala</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1D6987F8-FB75-99A1-7264-FE68D86E685E</referredTableID>
+<keyObject>373D035B-E29F-B546-F848-ED47DF75A39A</keyObject>
+<referredKeyID>373D035B-E29F-B546-F848-ED47DF75A39A</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>IdFl</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="39788EB6-DEA8-52C2-ED57-8CEC91424369" name="Racunarski_Sistem">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>F2FEDE9F-3689-D67F-9B5F-13EA0467BE04</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdRs" id="8EAF93BC-A86B-1624-8ACE-777408EE3CCF">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>12C49BFF-8848-B1A0-5C82-160585FE5B2D</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IdR" id="8DAF87CF-827B-04C2-1123-B0F279607116">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>E0C678B3-EE65-C41A-546F-EF4BE5D00E5B</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D11BFE8C-679C-C35E-7CA9-F70AA5BE309E" referredColumn="277AF4FE-773C-31A6-8196-1D67C9F56648"/>
+</associations>
+</Column>
+<Column name="BrkRs" id="B95516D7-1997-9F48-36BB-17551AE8F5EB">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 08:14:05 UTC</createdTime>
+<generatorID>0A49435C-EE7E-9BEF-3EFA-04067768F9AE</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OpsRs" id="2C02BEB1-C68F-BF38-A0AB-775FD4F3289E">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 08:14:05 UTC</createdTime>
+<generatorID>757B3139-3443-E20F-7AE8-D36DADECD6F7</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MemRs" id="3B644A74-4FD6-9DD9-D97B-A723C14AA8C6">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 08:14:05 UTC</createdTime>
+<generatorID>FDB6573D-4D11-1EEE-9836-0E499CA5E0D2</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CpuRs" id="1B3C930D-F6C2-A38B-2B70-18565C5C5E08">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 08:14:05 UTC</createdTime>
+<generatorID>17975B84-2303-5EF2-91EE-D67E1C49EB20</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GpuRs" id="793CC428-AFBF-4046-1721-59BC7C2D0989">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 08:14:05 UTC</createdTime>
+<generatorID>815A5906-0479-F5C7-3AB5-BEEF0902BCE8</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="057E7FB4-2926-B0EC-3A5B-9539753577C2" name="RacunarskiSistem_PK">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 11:20:31 UTC</createdTime>
+<generatorID>DA41EC17-50EF-3BA5-9088-66DEF2945467</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8EAF93BC-A86B-1624-8ACE-777408EE3CCF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3A3C114A-A31B-E311-CD83-6F2E5FDB402E" name="Admin_FK">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>0F7F3454-148A-EC97-6EB7-EAFD12C25F3A</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8DAF87CF-827B-04C2-1123-B0F279607116"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0EEBEF8B-7362-A3C3-DB05-DD54171541D3" name="Inzenjer_Obavlja_Zaduzenje">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<ownerDesignName>ITFirma</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ProjekatZaduzenje_IdP" id="F358097C-DF06-20F1-7928-2467EF6821E3">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<ownerDesignName>ITFirma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="06A13643-8BCF-6239-93A9-243D4894B25F" referredColumn="7E283858-9D42-F1FA-6D03-D69CC0A8B9F8"/>
+</associations>
+</Column>
+<Column name="ProjekatZaduzenje_IdZ" id="2E7102DD-1CA2-DEF4-5B48-EDCBD37769E4">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<ownerDesignName>ITFirma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="06A13643-8BCF-6239-93A9-243D4894B25F" referredColumn="E0388279-A7FD-DABB-CFF5-5D6090BB4A86"/>
+</associations>
+</Column>
+<Column name="InzinjerProjekat_IdP" id="4EBFA8C3-FA13-A4DA-F044-E818BC1B5C98">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<ownerDesignName>ITFirma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1B1A69AF-95A4-79E4-38EE-D4BCE70EDE06" referredColumn="B027940D-CAF6-EADD-5498-EE6BCACCE066"/>
+</associations>
+</Column>
+<Column name="InzinjerProjekat_IdR" id="CB547D89-E219-813B-A543-AACB9DFEDC36">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<ownerDesignName>ITFirma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1B1A69AF-95A4-79E4-38EE-D4BCE70EDE06" referredColumn="1AF7FFA1-FF79-EB7A-9579-0D7585D7D584"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9CAF368F-4BCA-B675-1B2B-B182A856851E" name="InzenjerObavljaZaduzenje_PK">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<ownerDesignName>ITFirma</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F358097C-DF06-20F1-7928-2467EF6821E3"/>
+<colUsage columnID="2E7102DD-1CA2-DEF4-5B48-EDCBD37769E4"/>
+<colUsage columnID="4EBFA8C3-FA13-A4DA-F044-E818BC1B5C98"/>
+<colUsage columnID="CB547D89-E219-813B-A543-AACB9DFEDC36"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E4C823AE-7A70-85C9-6B83-347E8B20D14B" name="ProjekatZaduzenje_FK">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>689315A1-58DE-922F-7508-2179AF0E4CB3</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F358097C-DF06-20F1-7928-2467EF6821E3"/>
+<colUsage columnID="2E7102DD-1CA2-DEF4-5B48-EDCBD37769E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3DADC7AB-6F79-3CBE-421F-89C173811C2E" name="InzinjerProjekat_FK">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>689315A1-58DE-922F-7508-2179AF0E4CB3</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB547D89-E219-813B-A543-AACB9DFEDC36"/>
+<colUsage columnID="4EBFA8C3-FA13-A4DA-F044-E818BC1B5C98"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

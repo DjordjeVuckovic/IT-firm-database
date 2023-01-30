@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F6447433-442E-06BE-6DFE-B9C022EEF397" name="Softver">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>ADC1CF42-D0E6-4F47-0EAD-6D80ACEFBC8F</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdS" id="B3C4B60B-F716-D94F-5307-C73230B9CC74">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>9D22F2E8-E122-9112-7D0D-708A87B70AA4</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NazivS" id="82A3742F-B1A3-5264-E32A-0EDB8776DE77">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 07:29:51 UTC</createdTime>
+<generatorID>F117B1D7-255F-85CB-B87A-2C87E06D0804</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OpisS" id="B86A9C59-229A-2C72-4B6D-0A24CF5D2ED3">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 07:29:51 UTC</createdTime>
+<generatorID>A0CA580B-3CE5-0000-CC66-D5A78DA0C678</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LicS" id="3B6C4CA7-B088-9C5F-57BF-C0E79E378EB0">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 07:29:51 UTC</createdTime>
+<generatorID>45C63B9E-8C0A-75A6-29FE-7D416B882D98</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VrzS" id="7EA5F0D7-E5D0-DDF9-1229-310266B605A9">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 07:29:51 UTC</createdTime>
+<generatorID>67CCCE52-9434-C4AA-BA02-85B8518F965D</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9108E335-901D-90CE-8B00-97288C48A19B" name="Softver_PK">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>2E3C920C-B820-A7D6-DFA9-3A69592B0B50</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3C4B60B-F716-D94F-5307-C73230B9CC74"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

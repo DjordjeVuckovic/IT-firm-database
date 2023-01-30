@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9DD87563-9F9F-E1B1-1B50-25BA7402F4A6" name="Filijala">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-22 16:53:37 UTC</createdTime>
+<ownerDesignName>ITFirma</ownerDesignName>
+<engineerTo>
+<item key="A9257CCD-2084-063C-8E52-5C6BE346A840" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdFl" id="8E438B74-0A83-7605-0198-4FECFF103ABB">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-22 16:58:04 UTC</createdTime>
+<ownerDesignName>ITFirma</ownerDesignName>
+<engineerTo>
+<item key="A9257CCD-2084-063C-8E52-5C6BE346A840" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OpisFl" id="C7773E7C-3704-1C5B-F49E-AF08006A7CAA">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-22 16:53:45 UTC</createdTime>
+<ownerDesignName>ITFirma</ownerDesignName>
+<engineerTo>
+<item key="A9257CCD-2084-063C-8E52-5C6BE346A840" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NazivFl" id="F851C67E-C2C9-CF3A-4F5C-5B355792066F">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-22 16:58:32 UTC</createdTime>
+<ownerDesignName>ITFirma</ownerDesignName>
+<engineerTo>
+<item key="A9257CCD-2084-063C-8E52-5C6BE346A840" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RbFl" id="972AD8C8-7FF4-966A-427E-6F1C360586A0">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-22 17:02:22 UTC</createdTime>
+<ownerDesignName>ITFirma</ownerDesignName>
+<engineerTo>
+<item key="A9257CCD-2084-063C-8E52-5C6BE346A840" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdAdr" id="5D334839-0BFF-4C19-5EDF-388980DEB2B0">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-22 17:03:49 UTC</createdTime>
+<generatorID>6E361BAE-7626-F406-7280-B121B9C9E26E</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<engineerTo>
+<item key="A9257CCD-2084-063C-8E52-5C6BE346A840" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>D6C70944-8C3B-D001-80BA-C9F0CF0A5F99</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdF" id="9E271E09-2373-2124-25FF-F34A6081E54A">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-22 17:08:38 UTC</createdTime>
+<generatorID>60C840A6-A446-A04B-7DDB-2F5F9150B950</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<engineerTo>
+<item key="A9257CCD-2084-063C-8E52-5C6BE346A840" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>3668B151-9552-2DF8-5B6D-B457A7F0CC0C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B7D765CA-2245-64B0-9B78-C62D0587CC6C" name="Filijala PK">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-22 17:02:17 UTC</createdTime>
+<ownerDesignName>ITFirma</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="A9257CCD-2084-063C-8E52-5C6BE346A840" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8E438B74-0A83-7605-0198-4FECFF103ABB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4604F611-AECF-37CC-D6F1-610E2C5825B3" name="Softverski_Inzenjer">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>90F5807D-2F49-4F35-3E0D-DA646754212C</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdR" id="8C702281-3D61-78CB-5786-1EBD855B9E05">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>ECEAB860-BEFF-7698-06CA-1F48ABF47591</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AF075DD9-5FDB-4CC3-78EE-E426E3055DE3" referredColumn="05E4ABB1-160D-606B-9129-0B1D76BD5FE1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6F7B4E50-B58F-57CB-A988-0A5167FD1CFC" name="Softverski_Inzenjer_PK">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>4438D072-1E92-2B48-6630-C4B490878816</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C702281-3D61-78CB-5786-1EBD855B9E05"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FF68A41D-BDE2-7B20-3107-398C9770E8DF" name="SoftverskiInzenjer_Radnik_FK">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>6A2D4C8D-8075-84BF-14A4-15937B767431</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C702281-3D61-78CB-5786-1EBD855B9E05"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

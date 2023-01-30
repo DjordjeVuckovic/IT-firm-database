@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9C0680C6-52BC-A4C3-8E63-8EE147B324FF" name="Bodovna_Skala">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-22 18:27:55 UTC</createdTime>
+<ownerDesignName>ITFirma</ownerDesignName>
+<engineerTo>
+<item key="A9257CCD-2084-063C-8E52-5C6BE346A840" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdBs" id="C375E1C7-67C3-96B6-D68A-CBCDA7552156">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-22 18:28:05 UTC</createdTime>
+<ownerDesignName>ITFirma</ownerDesignName>
+<engineerTo>
+<item key="A9257CCD-2084-063C-8E52-5C6BE346A840" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdR" id="DB31CC16-68C9-1E34-B2B6-9680F86B3BDC">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-22 18:29:32 UTC</createdTime>
+<generatorID>5B37F24A-2DC6-17A2-193A-C9B92B37313D</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<engineerTo>
+<item key="A9257CCD-2084-063C-8E52-5C6BE346A840" value="true"/>
+</engineerTo>
+<referedAttribute>ECEAB860-BEFF-7698-06CA-1F48ABF47591</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdRBod" id="17955B0C-C27F-6D8A-2E16-B8B4F92BB023">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-22 18:30:12 UTC</createdTime>
+<generatorID>B9543C1E-4841-F972-6DE1-47E712E86152</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<engineerTo>
+<item key="A9257CCD-2084-063C-8E52-5C6BE346A840" value="true"/>
+</engineerTo>
+<referedAttribute>ECEAB860-BEFF-7698-06CA-1F48ABF47591</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BrB" id="408AE2AB-6B5A-DEB5-44CD-6E497169B32E">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 07:48:03 UTC</createdTime>
+<ownerDesignName>ITFirma</ownerDesignName>
+<engineerTo>
+<item key="A9257CCD-2084-063C-8E52-5C6BE346A840" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="41483AEA-6715-8D9B-B874-AC1DD6A8C8F8" name="BodovnaSkala PK">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-22 18:29:27 UTC</createdTime>
+<ownerDesignName>ITFirma</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="A9257CCD-2084-063C-8E52-5C6BE346A840" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C375E1C7-67C3-96B6-D68A-CBCDA7552156</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

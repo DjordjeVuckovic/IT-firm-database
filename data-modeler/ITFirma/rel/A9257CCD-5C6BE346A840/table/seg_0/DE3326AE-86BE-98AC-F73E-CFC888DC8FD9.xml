@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DE3326AE-86BE-98AC-F73E-CFC888DC8FD9" name="Test">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>230B1FE4-EF4E-7053-7D4E-00583E469681</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdT" id="BDE4B962-F00D-FA27-13C1-A4C48306145B">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>FC038DFB-92F0-AFB6-B303-8DFB5984EFB6</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DatpT" id="CBB70A3B-AD6C-EBF9-A9A2-A892EE7A6C48">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 08:14:05 UTC</createdTime>
+<generatorID>F9773E00-6953-0D27-1BA1-E42BC29088AF</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DatkT" id="83971F01-8FC9-3CE1-AD1D-0E6D536F33C7">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 08:14:05 UTC</createdTime>
+<generatorID>96327B65-D385-79FF-B50F-C2DC4E90CACA</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F73E30ED-E516-12FA-61FA-A3F59216EDA6" name="Test_PK">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>6CDCEC20-8997-76AB-2E9E-6D5C2F1DD824</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BDE4B962-F00D-FA27-13C1-A4C48306145B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

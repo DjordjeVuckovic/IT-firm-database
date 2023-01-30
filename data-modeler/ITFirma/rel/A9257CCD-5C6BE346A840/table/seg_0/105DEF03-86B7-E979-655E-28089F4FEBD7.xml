@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="105DEF03-86B7-E979-655E-28089F4FEBD7" name="Klijentski_Projekat">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>C0EB7885-5FE8-D2CA-A85B-8F625ADB592C</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdP" id="FC339A7F-102D-3D1F-574A-1D56210DB95C">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>6C1A6586-375C-34FB-AB6D-A613D2DEC18E</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A1A5F09F-251B-91DA-15D8-F77818DCAF5B" referredColumn="8E4776CD-6B57-7173-5CCA-65BD90E1B18B"/>
+</associations>
+</Column>
+<Column name="IdK" id="97171785-DED7-E752-5366-A793CB0A3872">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>97585F58-8F58-C9C2-D763-BE7C046B246E</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4C966C96-58AB-2AEC-8408-62C5865F35EA" referredColumn="2393EFE0-EA94-FF10-8C07-875742256A44"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F3364236-5AD4-2D38-B7FD-2933B75F66F5" name="KlijentskiProjekat_IdP_UN">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>57C0850F-60A6-3F2A-6E26-6172483DFAFA</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC339A7F-102D-3D1F-574A-1D56210DB95C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DE83B46A-7A9A-1D2C-412F-D6CBC10DB5FA" name="KlijentskiProjekat_Projekat_FK">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>E0B8500F-7614-E71F-46E9-EBEDB34DF228</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC339A7F-102D-3D1F-574A-1D56210DB95C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="591031AD-AFC5-EEEC-5950-4EABCC59005B" name="Klijent_FKv2">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-24 20:47:04 UTC</createdTime>
+<generatorID>86A06BB2-27AE-2706-5649-FDAEAA778DF0</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="97171785-DED7-E752-5366-A793CB0A3872"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

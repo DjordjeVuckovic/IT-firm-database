@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="38D7DD00-5197-00D0-EDF7-96B3531BBE53" name="Projekat_Zaduzenje">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-22 18:40:05 UTC</createdTime>
+<ownerDesignName>ITFirma</ownerDesignName>
+<engineerTo>
+<item key="A9257CCD-2084-063C-8E52-5C6BE346A840" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdP" id="219A51A9-492A-8140-43AC-C9E039220307">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-22 18:40:23 UTC</createdTime>
+<generatorID>6B6AB2F3-C100-F0E0-AD2C-92370CAAF80E</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<engineerTo>
+<item key="A9257CCD-2084-063C-8E52-5C6BE346A840" value="true"/>
+</engineerTo>
+<referedAttribute>6C1A6586-375C-34FB-AB6D-A613D2DEC18E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdZ" id="4679A8C3-DE14-A72B-A824-F2E4B7CA8BC9">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-22 18:41:01 UTC</createdTime>
+<generatorID>38B0AC6B-970B-BFDC-6C08-0AA427EFF417</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<engineerTo>
+<item key="A9257CCD-2084-063C-8E52-5C6BE346A840" value="true"/>
+</engineerTo>
+<referedAttribute>E0C24658-938B-4B8E-2184-198EAA2D4773</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EA104415-4FB9-1CB5-30AF-E4AF6474B57A" name="ProjekatZaduzenje PK">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-22 18:40:23 UTC</createdTime>
+<ownerDesignName>ITFirma</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="A9257CCD-2084-063C-8E52-5C6BE346A840" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>219A51A9-492A-8140-43AC-C9E039220307</attributeRef>
+<attributeRef>4679A8C3-DE14-A72B-A824-F2E4B7CA8BC9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

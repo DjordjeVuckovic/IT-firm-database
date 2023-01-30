@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="17E83236-49F1-1B0F-02F1-4E328CC356E1" containerWithKeyObject="CEDEAE7F-D626-03FF-877E-429DAEC62BCC" localFKIndex="64A8667A-FDBA-4D37-6672-09E339FC3FCB" name="Softver_FK">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>6E86FC62-71EE-262C-BE6E-51C41953EC1E</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<referredTableLongName>Softver</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F6447433-442E-06BE-6DFE-B9C022EEF397</referredTableID>
+<keyObject>9108E335-901D-90CE-8B00-97288C48A19B</keyObject>
+<referredKeyID>9108E335-901D-90CE-8B00-97288C48A19B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IdS</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

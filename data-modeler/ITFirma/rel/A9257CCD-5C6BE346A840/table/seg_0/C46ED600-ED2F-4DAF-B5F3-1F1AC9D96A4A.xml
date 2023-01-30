@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C46ED600-ED2F-4DAF-B5F3-1F1AC9D96A4A" name="Tehnologija">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 12:59:26 UTC</createdTime>
+<generatorID>5435C856-B64B-E119-0CF9-382C5AC87D72</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdT" id="DA4F620B-0BB7-5042-0FAD-513F782C116B">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 12:59:26 UTC</createdTime>
+<generatorID>04C307C2-32A7-4145-C090-EBDF6322E039</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NazivT" id="FF7C6284-7D21-B9DC-7C6B-F4A45D3E16B1">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 12:59:26 UTC</createdTime>
+<generatorID>9309581B-6EA4-C297-7452-17C2A4931563</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VrzT" id="6D0F7E75-9E35-4524-D33B-43249F006D72">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 12:59:26 UTC</createdTime>
+<generatorID>C57C1BB4-43BF-B7A7-F0F8-3D1220139ECD</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="772D6362-6E13-82F5-7CC3-768833A01695" name="Tehnologija_PK">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 12:59:26 UTC</createdTime>
+<generatorID>083332FC-F4FA-1FE5-F731-083D88B5E312</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA4F620B-0BB7-5042-0FAD-513F782C116B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

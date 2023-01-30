@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4C0DAD70-DD80-3CAD-FFBE-51DC5542F97B" name="Admin">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>F41D96D7-82A3-B926-B357-12A957074BEA</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdR" id="277AF4FE-773C-31A6-8196-1D67C9F56648">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>ECEAB860-BEFF-7698-06CA-1F48ABF47591</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7E904D4E-B958-AB71-7B12-8362220B9781" referredColumn="05E4ABB1-160D-606B-9129-0B1D76BD5FE1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A2DB9D10-0FB7-9745-7E8D-387A9C442064" name="Admin_PK">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>4438D072-1E92-2B48-6630-C4B490878816</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="277AF4FE-773C-31A6-8196-1D67C9F56648"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="080FAA01-E3F3-D79D-7A81-6DDEE2802B1E" name="Admin_Radnik_FK">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>B28D52C9-72A0-128C-107E-EFA570F256DD</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="277AF4FE-773C-31A6-8196-1D67C9F56648"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7ADDD1F7-E2E8-400D-A8ED-1EA974437909" name="Hr">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>25D43027-B017-49C5-A952-007DC79746B5</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdR" id="2E522192-2E61-08E6-33D0-E625A51250BA">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>ECEAB860-BEFF-7698-06CA-1F48ABF47591</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="912E2680-A739-2A55-CBC2-CDA5E824A4ED" referredColumn="05E4ABB1-160D-606B-9129-0B1D76BD5FE1"/>
+</associations>
+</Column>
+<Column name="StrucnaSprema" id="B75D3E1D-7372-ECE4-6F6D-2A8F528E4617">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 08:14:05 UTC</createdTime>
+<generatorID>4B2697BE-B64F-24FE-2481-94A85FA617FB</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Del" id="34C7D3E3-2050-4753-8728-427374734F86">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 08:14:05 UTC</createdTime>
+<generatorID>54E3935B-717C-2583-403B-8CB92C6675CB</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7B6A1999-34C2-BBC3-CDBE-4FCB2BBFF2FE" name="Hr_PK">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>4438D072-1E92-2B48-6630-C4B490878816</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E522192-2E61-08E6-33D0-E625A51250BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5A709B09-7271-E7B3-F171-0A5E5EF7F37E" name="Hr_Radnik_FK">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>54FE3E58-E2F3-3D66-90B2-6C1C1AAA9724</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E522192-2E61-08E6-33D0-E625A51250BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

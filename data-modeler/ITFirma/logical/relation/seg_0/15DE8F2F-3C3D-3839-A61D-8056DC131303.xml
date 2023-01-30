@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Polaze" directorySegmentName="seg_0" id="15DE8F2F-3C3D-3839-A61D-8056DC131303">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-22 18:22:36 UTC</createdTime>
+<ownerDesignName>ITFirma</ownerDesignName>
+<engineerTo>
+<item key="A9257CCD-2084-063C-8E52-5C6BE346A840" value="true"/>
+</engineerTo>
+<sourcePk>6513C675-061C-2F85-0C5D-F351BEEBAE23</sourcePk>
+<targetPk>342DD3D9-7139-C067-704F-91145E24B545</targetPk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>643B13A2-6309-E5EB-08AD-F123D02CF63B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>73D2D53F-680E-6141-83D6-9BA0CC0437FF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

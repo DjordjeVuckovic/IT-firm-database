@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Projekat_Tehnologija" directorySegmentName="seg_0" id="664D9CCA-17D2-96EB-E8C7-A565AFDE2456">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-22 17:23:15 UTC</createdTime>
+<ownerDesignName>ITFirma</ownerDesignName>
+<engineerTo>
+<item key="A9257CCD-2084-063C-8E52-5C6BE346A840" value="true"/>
+</engineerTo>
+<sourcePk>57C0850F-60A6-3F2A-6E26-6172483DFAFA</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>76C577C6-568B-1F9A-EEF5-F4281A10ED9E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5435C856-B64B-E119-0CF9-382C5AC87D72</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

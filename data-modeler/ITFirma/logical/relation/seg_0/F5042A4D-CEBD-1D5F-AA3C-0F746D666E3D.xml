@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Menadzer_Klijent" directorySegmentName="seg_0" id="F5042A4D-CEBD-1D5F-AA3C-0F746D666E3D">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-22 18:13:14 UTC</createdTime>
+<ownerDesignName>ITFirma</ownerDesignName>
+<engineerTo>
+<item key="A9257CCD-2084-063C-8E52-5C6BE346A840" value="true"/>
+</engineerTo>
+<targetPk>14653D59-A0CE-4EBA-9CED-0253098E08B3</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>86EC6B2E-C7A0-F927-EE57-D9E7FE7806BA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9FBA8AD3-C507-1C37-359C-3B0408605B66</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

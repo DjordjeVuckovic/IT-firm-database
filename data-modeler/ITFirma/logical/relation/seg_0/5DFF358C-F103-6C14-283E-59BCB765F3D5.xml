@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="AdrF" directorySegmentName="seg_0" id="5DFF358C-F103-6C14-283E-59BCB765F3D5">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-22 16:57:06 UTC</createdTime>
+<ownerDesignName>ITFirma</ownerDesignName>
+<engineerTo>
+<item key="A9257CCD-2084-063C-8E52-5C6BE346A840" value="true"/>
+</engineerTo>
+<sourcePk>C85C77A1-A927-1408-E09E-32E8ED78AF51</sourcePk>
+<targetPk>56E0DFFD-270D-DC98-DCFF-62A799365F08</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>ED797B21-BF8A-0274-B39F-E048BC4D40D5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6337FF27-ACFC-01A9-6865-C0544D5E4468</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B5D62DD2-2127-8BD3-52D2-002B39C8B987" name="Menadzer_Klijent">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<ownerDesignName>ITFirma</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdR" id="C95E3F0E-2ACE-F8FC-0214-FCF25EC21E20">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<ownerDesignName>ITFirma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BA8788EA-F13E-08CD-3104-1CAA9DBF01FB" referredColumn="C2AA42D4-D152-D0FD-B174-518FE0442544"/>
+</associations>
+</Column>
+<Column name="IdK" id="AB1ECEB9-6A6B-1B5C-9B66-51E003FF9CA9">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<ownerDesignName>ITFirma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A08EFC24-BCD5-E339-41E1-CC7E80895273" referredColumn="2393EFE0-EA94-FF10-8C07-875742256A44"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0B1FCA92-9658-5CFC-1A8E-0F2A204E48D0" name="MenazerKlijent_PK">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<ownerDesignName>ITFirma</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C95E3F0E-2ACE-F8FC-0214-FCF25EC21E20"/>
+<colUsage columnID="AB1ECEB9-6A6B-1B5C-9B66-51E003FF9CA9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B9ABFDC1-BEC9-7A99-7BAE-62A0A7E2FF74" name="Menadzer_FK">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>F5042A4D-CEBD-1D5F-AA3C-0F746D666E3D</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C95E3F0E-2ACE-F8FC-0214-FCF25EC21E20"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="497CA00B-7CCB-FE68-24B9-120B90998F21" name="Klijent_FK">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>F5042A4D-CEBD-1D5F-AA3C-0F746D666E3D</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB1ECEB9-6A6B-1B5C-9B66-51E003FF9CA9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

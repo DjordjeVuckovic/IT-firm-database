@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FirmaFIlijala" directorySegmentName="seg_0" id="60C840A6-A446-A04B-7DDB-2F5F9150B950">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-22 17:08:38 UTC</createdTime>
+<ownerDesignName>ITFirma</ownerDesignName>
+<engineerTo>
+<item key="A9257CCD-2084-063C-8E52-5C6BE346A840" value="true"/>
+</engineerTo>
+<sourcePk>56E0DFFD-270D-DC98-DCFF-62A799365F08</sourcePk>
+<targetPk>B7D765CA-2245-64B0-9B78-C62D0587CC6C</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6337FF27-ACFC-01A9-6865-C0544D5E4468</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9DD87563-9F9F-E1B1-1B50-25BA7402F4A6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="44347148-8437-F77D-2DFF-44940130F02C" name="Praksa">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>73D2D53F-680E-6141-83D6-9BA0CC0437FF</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdPk" id="E1FA8D20-A459-8ADA-4964-C70ED9214F3A">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>C4AD464F-0858-7C34-FA88-459AABDE8AD2</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FAFA199D-8F53-061A-C634-37999F150C6E" referredColumn="0F2B487A-AC82-BA61-CDE8-36684A705006"/>
+</associations>
+</Column>
+<Column name="IdR" id="ECABB928-179F-24A9-5025-637EC9AD9C65">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>AD6FCE5F-7E03-7396-05F2-96E8EDD9B6B2</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="117AB457-0475-7483-1EFB-7B2928F79654" referredColumn="8C702281-3D61-78CB-5786-1EBD855B9E05"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FB44BA33-0633-F06E-017B-33383F1B0B05" name="Praksa_PK">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>342DD3D9-7139-C067-704F-91145E24B545</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ECABB928-179F-24A9-5025-637EC9AD9C65"/>
+<colUsage columnID="E1FA8D20-A459-8ADA-4964-C70ED9214F3A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="66B8B9CA-ED81-C8E3-0A35-621D4638F9B1" name="Praktikant_FK">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>15DE8F2F-3C3D-3839-A61D-8056DC131303</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E1FA8D20-A459-8ADA-4964-C70ED9214F3A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0F726E99-760D-72B8-9543-13AEB7FA3E05" name="Softverski_Inzenjer_FKv2">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>64571A75-7652-6E1A-2121-67180BD06C8F</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ECABB928-179F-24A9-5025-637EC9AD9C65"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3A895BCB-8F65-86F0-6A02-E44DFD5EA033" name="Projekat_Zaduzenje">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>38D7DD00-5197-00D0-EDF7-96B3531BBE53</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdP" id="7E283858-9D42-F1FA-6D03-D69CC0A8B9F8">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>219A51A9-492A-8140-43AC-C9E039220307</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_IdP</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="1A8C50C9-7331-2E5B-C44C-C3562E07F5BA" referredColumn="8E4776CD-6B57-7173-5CCA-65BD90E1B18B"/>
+</associations>
+</Column>
+<Column name="IdZ" id="E0388279-A7FD-DABB-CFF5-5D6090BB4A86">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>4679A8C3-DE14-A72B-A824-F2E4B7CA8BC9</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_IdZ</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="C03A5133-4A76-9394-60D3-BFCD9B3C39F6" referredColumn="04461846-3347-DB90-88F5-69739EDB97DD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8895D19B-BA24-D368-9320-DDA562CBEAFF" name="Projekat_Zaduzenje_PK">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>EA104415-4FB9-1CB5-30AF-E4AF6474B57A</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E283858-9D42-F1FA-6D03-D69CC0A8B9F8"/>
+<colUsage columnID="E0388279-A7FD-DABB-CFF5-5D6090BB4A86"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C2C8226B-0FDA-708E-AA79-7B028FE3A3FB" name="Projekat_FKv2">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>6B6AB2F3-C100-F0E0-AD2C-92370CAAF80E</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E283858-9D42-F1FA-6D03-D69CC0A8B9F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D466EAB7-F0F5-F29A-661F-A8BCAB503A5E" name="Zaduzenje_FK">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>38B0AC6B-970B-BFDC-6C08-0AA427EFF417</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E0388279-A7FD-DABB-CFF5-5D6090BB4A86"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="052784A2-982A-2A6C-BBA8-CA092A8DF32F" name="Inzinjer_Projekat">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-22 18:32:46 UTC</createdTime>
+<ownerDesignName>ITFirma</ownerDesignName>
+<engineerTo>
+<item key="A9257CCD-2084-063C-8E52-5C6BE346A840" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdR" id="4AB1120A-64F8-F88D-4274-DC4CB683D17E">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-22 18:33:09 UTC</createdTime>
+<generatorID>84E370B8-8F32-B4B1-B80D-A99FF9B846DA</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<engineerTo>
+<item key="A9257CCD-2084-063C-8E52-5C6BE346A840" value="true"/>
+</engineerTo>
+<referedAttribute>ECEAB860-BEFF-7698-06CA-1F48ABF47591</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdP" id="75E18767-4ACB-F053-E245-04A3707098A3">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-22 18:33:31 UTC</createdTime>
+<generatorID>03529339-F0A6-CB78-7773-369D7B824CD1</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<engineerTo>
+<item key="A9257CCD-2084-063C-8E52-5C6BE346A840" value="true"/>
+</engineerTo>
+<referedAttribute>6C1A6586-375C-34FB-AB6D-A613D2DEC18E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BrSati" id="E012BE91-2BB6-FE09-E227-97865F7FC65B">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-22 18:35:44 UTC</createdTime>
+<ownerDesignName>ITFirma</ownerDesignName>
+<engineerTo>
+<item key="A9257CCD-2084-063C-8E52-5C6BE346A840" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0B0DB012-9FA2-3074-01A3-E0AA6EBEF0C9" name="InzinjerProjekat PK">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-22 18:33:09 UTC</createdTime>
+<ownerDesignName>ITFirma</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="A9257CCD-2084-063C-8E52-5C6BE346A840" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4AB1120A-64F8-F88D-4274-DC4CB683D17E</attributeRef>
+<attributeRef>75E18767-4ACB-F053-E245-04A3707098A3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

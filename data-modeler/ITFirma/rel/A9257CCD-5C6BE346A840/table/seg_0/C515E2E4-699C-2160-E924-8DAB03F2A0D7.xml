@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C515E2E4-699C-2160-E924-8DAB03F2A0D7" name="Inzinjer_Projekat">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>052784A2-982A-2A6C-BBA8-CA092A8DF32F</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdR" id="1AF7FFA1-FF79-EB7A-9579-0D7585D7D584">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>4AB1120A-64F8-F88D-4274-DC4CB683D17E</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="41BBCB9A-FC62-F0D3-1012-EAFF2F239026" referredColumn="8C702281-3D61-78CB-5786-1EBD855B9E05"/>
+</associations>
+</Column>
+<Column name="IdP" id="B027940D-CAF6-EADD-5498-EE6BCACCE066">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>75E18767-4ACB-F053-E245-04A3707098A3</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2436DE63-22FD-975A-32AC-9FC975A7B64C" referredColumn="8E4776CD-6B57-7173-5CCA-65BD90E1B18B"/>
+</associations>
+</Column>
+<Column name="BrSati" id="4EC20575-7EE1-A8EB-DD24-2A7E1C4196C3">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>E012BE91-2BB6-FE09-E227-97865F7FC65B</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C66ADFAB-0A40-1A3D-DDD3-C6178C6135E1" name="InzinjerProjekat_PK">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>0B0DB012-9FA2-3074-01A3-E0AA6EBEF0C9</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1AF7FFA1-FF79-EB7A-9579-0D7585D7D584"/>
+<colUsage columnID="B027940D-CAF6-EADD-5498-EE6BCACCE066"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CCB60E79-7DC2-6465-4FC0-3997089320F7" name="Projekat_FKv1">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>03529339-F0A6-CB78-7773-369D7B824CD1</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B027940D-CAF6-EADD-5498-EE6BCACCE066"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3AD73569-3CCB-2011-3517-E708F6D9976F" name="Softverski_Inzenjer_FK">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>84E370B8-8F32-B4B1-B80D-A99FF9B846DA</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1AF7FFA1-FF79-EB7A-9579-0D7585D7D584"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

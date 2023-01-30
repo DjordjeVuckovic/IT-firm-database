@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Bodovan" directorySegmentName="seg_0" id="B9543C1E-4841-F972-6DE1-47E712E86152">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-22 18:30:12 UTC</createdTime>
+<ownerDesignName>ITFirma</ownerDesignName>
+<engineerTo>
+<item key="A9257CCD-2084-063C-8E52-5C6BE346A840" value="true"/>
+</engineerTo>
+<sourcePk>4438D072-1E92-2B48-6630-C4B490878816</sourcePk>
+<targetPk>41483AEA-6715-8D9B-B874-AC1DD6A8C8F8</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>40270A49-2369-9B01-79EC-C8BFE67A40C3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9C0680C6-52BC-A4C3-8E63-8EE147B324FF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

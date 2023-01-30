@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Zahteva" directorySegmentName="seg_0" id="86A06BB2-27AE-2706-5649-FDAEAA778DF0">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-22 17:48:34 UTC</createdTime>
+<ownerDesignName>ITFirma</ownerDesignName>
+<engineerTo>
+<item key="A9257CCD-2084-063C-8E52-5C6BE346A840" value="true"/>
+</engineerTo>
+<targetPk>14653D59-A0CE-4EBA-9CED-0253098E08B3</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>C0EB7885-5FE8-D2CA-A85B-8F625ADB592C</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>9FBA8AD3-C507-1C37-359C-3B0408605B66</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

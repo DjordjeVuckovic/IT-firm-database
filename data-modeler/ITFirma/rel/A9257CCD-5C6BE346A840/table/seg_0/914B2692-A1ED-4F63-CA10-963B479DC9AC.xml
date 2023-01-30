@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="914B2692-A1ED-4F63-CA10-963B479DC9AC" name="Projekat_Tehnologija">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 12:59:26 UTC</createdTime>
+<ownerDesignName>ITFirma</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Projekat_IdP" id="A73DBA0E-0529-8918-33B9-442EB4ECDB57">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 12:59:26 UTC</createdTime>
+<ownerDesignName>ITFirma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F1095AD3-2BB0-5E5C-08B8-40E770E944A3" referredColumn="8E4776CD-6B57-7173-5CCA-65BD90E1B18B"/>
+</associations>
+</Column>
+<Column name="Tehnologija_IdT" id="B17C9124-98A9-235E-06B3-4FD12966B089">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 12:59:26 UTC</createdTime>
+<ownerDesignName>ITFirma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D4CCC19A-37AB-2689-A3B1-68A4D3F8C447" referredColumn="DA4F620B-0BB7-5042-0FAD-513F782C116B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="35F76914-8893-23B8-8EE2-67151AD698A8" name="Projekat_Tehnologija_PK">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 12:59:26 UTC</createdTime>
+<ownerDesignName>ITFirma</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A73DBA0E-0529-8918-33B9-442EB4ECDB57"/>
+<colUsage columnID="B17C9124-98A9-235E-06B3-4FD12966B089"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9C651BCB-AC29-C6ED-04F7-B74AF2FA2D92" name="Projekat_FK">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 12:59:26 UTC</createdTime>
+<generatorID>664D9CCA-17D2-96EB-E8C7-A565AFDE2456</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A73DBA0E-0529-8918-33B9-442EB4ECDB57"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4D8E8306-5167-7063-2CD2-7C212D687445" name="Tehnologija_FK">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 12:59:26 UTC</createdTime>
+<generatorID>664D9CCA-17D2-96EB-E8C7-A565AFDE2456</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B17C9124-98A9-235E-06B3-4FD12966B089"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

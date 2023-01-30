@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D2F11326-51B0-4C5F-28E6-2384FB41C045" name="Klijent">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>9FBA8AD3-C507-1C37-359C-3B0408605B66</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdK" id="2393EFE0-EA94-FF10-8C07-875742256A44">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>D5DB6BF4-9CFC-B463-EDE2-F683D4D32CB9</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ImeK" id="280F6993-5250-AEA6-2970-B8AE2381C701">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 07:29:51 UTC</createdTime>
+<generatorID>641CFF84-65D0-2D01-F718-D4E5FDEE5AA5</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PrzK" id="39C4F4AD-075B-66CD-6E0D-285F6BE0F725">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 07:29:51 UTC</createdTime>
+<generatorID>F628E36E-B721-8119-E4FE-2690D29889CF</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MbrK" id="C08A19C3-DB47-1C54-13AE-08CA434F5DA1">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 07:29:51 UTC</createdTime>
+<generatorID>0F45AFA1-44A2-BFE8-8EAF-16504ABA7742</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="662EF873-524E-447E-C8C9-EA73EE07D52B" name="Klijent_PK">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>14653D59-A0CE-4EBA-9CED-0253098E08B3</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2393EFE0-EA94-FF10-8C07-875742256A44"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,149 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1D6987F8-FB75-99A1-7264-FE68D86E685E" name="Filijala">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>9DD87563-9F9F-E1B1-1B50-25BA7402F4A6</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdFl" id="61DBFF50-61FA-EACB-D995-91737A9DC526">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>8E438B74-0A83-7605-0198-4FECFF103ABB</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OpisFl" id="16B1B571-3A69-E9D2-4735-583ED6C35C41">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>C7773E7C-3704-1C5B-F49E-AF08006A7CAA</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NazivFl" id="68E13AC7-9E4E-2025-F5BA-31D2C681FC16">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>F851C67E-C2C9-CF3A-4F5C-5B355792066F</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RbFl" id="E929E584-17ED-1DB0-7774-5C2C84ADFC40">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>972AD8C8-7FF4-966A-427E-6F1C360586A0</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IdAdr" id="AC357834-86E5-83DF-F4BA-1AAE1ED992D3">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>5D334839-0BFF-4C19-5EDF-388980DEB2B0</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CD173A7F-27F5-B245-0D80-650B53BE7866" referredColumn="BFA44FCE-8D34-2722-417F-AD60DCF385AD"/>
+</associations>
+</Column>
+<Column name="IdF" id="28D01ABB-9665-CB1B-280D-1004EDFB7B03">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>9E271E09-2373-2124-25FF-F34A6081E54A</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FDE1ACAF-EDCF-C8E3-EBD8-3EAC16F1024E" referredColumn="29E6F027-4FED-6B12-3A4E-7CE047DC442B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="373D035B-E29F-B546-F848-ED47DF75A39A" name="Filijala_PK">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>B7D765CA-2245-64B0-9B78-C62D0587CC6C</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61DBFF50-61FA-EACB-D995-91737A9DC526"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="25FAAB12-E75D-A305-9035-6B973723B871" name="Filijala__UN">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 11:29:19 UTC</createdTime>
+<ownerDesignName>ITFirma</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="68E13AC7-9E4E-2025-F5BA-31D2C681FC16"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A66AA0DA-64C4-B444-A231-62AB35CC9EAD" name="Filijala__UNv1">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 11:29:19 UTC</createdTime>
+<ownerDesignName>ITFirma</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC357834-86E5-83DF-F4BA-1AAE1ED992D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FCC40479-FDBD-2326-A69C-1A3805C2A689" name="Firma_FK">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>60C840A6-A446-A04B-7DDB-2F5F9150B950</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="28D01ABB-9665-CB1B-280D-1004EDFB7B03"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A8ED3512-70B4-BAAC-CFF1-4364063526F3" name="Adresa_FKv2">
+<createdBy>djord</createdBy>
+<createdTime>2023-01-23 05:39:54 UTC</createdTime>
+<generatorID>6E361BAE-7626-F406-7280-B121B9C9E26E</generatorID>
+<ownerDesignName>ITFirma</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC357834-86E5-83DF-F4BA-1AAE1ED992D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
